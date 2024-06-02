@@ -1,10 +1,12 @@
 import '../App.css';
-import { Flex, Box, Text, Grid, GridItem, WrapItem, Button, ButtonGroup, AspectRatio } from '@chakra-ui/react';
+import { Flex, Box, Text, Grid, GridItem, WrapItem, Button, ButtonGroup, AspectRatio, hr } from '@chakra-ui/react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import colors from './colors';
 import ToTopButton from '../components/ToTopButton';
 import Sir from "../images/siir.png"
+import womensir from "../images/womensir.png"
+import crasiv from "../images/crasiv.png"
 import menu from '../components/menu';
 import CardItem from '../components/cardItem';
 import CardItem2 from '../components/cardItem2';
@@ -71,12 +73,19 @@ const HomePage = () =>{
                             
                             
                         </Flex>
+                        <Flex 
+                        backgroundImage={crasiv}
+                        h={'8vh'}
+                        w={'100%'}
+                        >
+
+                        </Flex>
                         <Flex
                             h={'110vh'}
                             w={'100%'}
                             id='about'   
                         >
-                            <Flex backgroundColor={'#45310c'} padding={'10px 50px'} flexDirection={'column'} w={'100%'} > 
+                            <Flex backgroundImage={womensir} backgroundSize={'cover'} padding={'10px 50px'} flexDirection={'column'} w={'100%'} > 
                                 <Text fontSize={'40px'}  color={'#bfa471'} mb={'20px'}>Where are your sir?</Text> 
                                 <AspectRatio ratio={19 / 9} > 
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37761.39132232427!2d5.371012146400727!3d51.51430209425553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6dc55c3f958cf%3A0x4f6e42e7e581a5eb!2z0JHQtdGB0YIsINCd0LjQtNC10YDQu9Cw0L3QtNGL!5e1!3m2!1sru!2sby!4v1717338443654!5m2!1sru!2sby" ></iframe> 
@@ -84,7 +93,14 @@ const HomePage = () =>{
                                 </Flex>
                                 </Flex>
 
-                                <Box mt={'20px'} w={'100%'} backgroundColor={'#6e6232'}>
+                                 <Flex 
+                                    backgroundImage={crasiv}
+                                    h={'8vh'}
+                                    w={'100%'}
+                                    >
+                                </Flex>
+
+                                <Box w={'100%'} backgroundColor={'#6e6232'}>
                                     <Text fontSize={'80px'} padding={'10px 50px'} margin={'30px 0px 20px 0px'}>Your Comments:</Text>
                                     
                                     <Flex
