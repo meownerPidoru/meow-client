@@ -76,10 +76,10 @@ const HomePage = () =>{
                             w={'100%'}
                             id='about'   
                         >
-                            <Flex backgroundColor={'#45310c'} padding={'10px 50px'} flexDirection={'column'} justifyContent={'center'} w={'100%'} > 
-                                <Text fontSize={'40px'}  color={'#bfa471'}>Where are your sir?</Text> 
-                                <AspectRatio ratio={16 / 9} width={"100%"} h={800} mt={'60px'}> 
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38946.80405791186!2d23.81995275841609!3d52.403499904577785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4720559c6df3f967%3A0x2cc7ba71f743e569!2z0JrQsNC80LXQvdC10YYsINCR0YDQtdGB0YLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sby!4v1711123453690!5m2!1sru!2sby"  ></iframe> 
+                            <Flex backgroundColor={'#45310c'} padding={'10px 50px'} flexDirection={'column'} w={'100%'} > 
+                                <Text fontSize={'40px'}  color={'#bfa471'} mb={'20px'}>Where are your sir?</Text> 
+                                <AspectRatio ratio={19 / 9} > 
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37761.39132232427!2d5.371012146400727!3d51.51430209425553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6dc55c3f958cf%3A0x4f6e42e7e581a5eb!2z0JHQtdGB0YIsINCd0LjQtNC10YDQu9Cw0L3QtNGL!5e1!3m2!1sru!2sby!4v1717338443654!5m2!1sru!2sby" ></iframe> 
                                 </AspectRatio> 
                                 </Flex>
                                 </Flex>
