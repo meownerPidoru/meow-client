@@ -62,11 +62,12 @@ const RegisterPage = () =>{
                                 value={password} 
                             />
                         </InputGroup>
-                        <Button colorScheme='teal' variant='solid' marginTop='10px'   onClick={() => {handleRegister(email, password)}} >
+                        <Button colorScheme='teal' variant='solid' marginTop='30px'   onClick={() => {handleRegister(email, password)}} >
                         Sing In
                         </Button>
+                        <Box>
                         <Link to={AuthRoute}>Login</Link>
-                    </Box>
+                    </Box></Box>
                     
                 </Flex>
             </Flex>

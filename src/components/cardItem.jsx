@@ -29,9 +29,10 @@ const CardItem = () =>{
                     <Heading fontSize={'30px'}>Cir</Heading>
                 </Box>
                 <Box>
-                    <Text>
-                        <b>Sort:</b> <i> | higher 1700kg | taste speed 303km/h</i>
+                    <Text fontSize={'20px'}>
+                        syper mega delicious sir. Only for you.
                     </Text>
+                    <Text ml={'60px'}> includes useful components</Text>
                 </Box>
                 <Flex
                     width={'65%'}

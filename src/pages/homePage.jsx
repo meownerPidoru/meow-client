@@ -1,5 +1,5 @@
 import '../App.css';
-import { Flex, Box, Text, Grid, GridItem, WrapItem, Button, ButtonGroup, AspectRatio, Heading, ExternalLinkIcon } from '@chakra-ui/react';
+import { Flex, Box, Text, Grid, GridItem, WrapItem, Button, ButtonGroup, AspectRatio, Heading } from '@chakra-ui/react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import colors from './colors';
@@ -67,15 +67,18 @@ const HomePage = () =>{
                             justifyContent={'center'}
                         >
                             <Text fontSize={'170px'} m={"0px 0px 0px 100px"} textColor={'#B8860B'}>cheese and <b className='bbb'> red</b> </Text>
-                                <ButtonGroup gap='4'm={"90px 0px 0px 70px"} >
+                                <ButtonGroup gap='4'm={"60px 0px 0px 70px"} >
                                 <Link
                                         to={ShopRoute}
                                     > 
                                 <Button colorScheme='whiteAlpha' padding={'60px 80px 60px 80px'} fontSize={'70px'}>Buy Sir</Button>
-                                </Link>
-                                <Button colorScheme='blackAlpha'>buy sir</Button>
-                                <Button colorScheme='blackAlpha'>BlackAlphaSir</Button>
+                                </Link> 
+                                <Text fontSize={'40px'} color={'#ffc43b'}>
+                                    We love you and our sir
+                                </Text>
+                                
                                 </ButtonGroup>
+                               
                             
                             
                         </Flex>
@@ -99,13 +102,14 @@ const HomePage = () =>{
                                 </Flex>
                                 </Flex>
 
-                                <Flex 
+                                            <Flex 
                                                 backgroundImage={crasiv}
                                                 h={'8vh'}
                                                 w={'100%'}
                                                 >
                                             </Flex>  
                                                     <Box
+                                                    id='Products'
                                                     h={'110vh'}
                                                     w={'100%'}
                                                     backgroundColor={'#6e6232'}
@@ -116,7 +120,7 @@ const HomePage = () =>{
                                                         <Text w={'100%'} color={'#d4ccb2'} fontSize={'80px'} padding={'10px 50px'} margin={'30px 0px 20px 0px'}>About our sirs:</Text>
                                                      </Flex>
                                                      <Flex w={'80%'} justify={'center'} mt={'30px'} ml={'170px'}>
-                                                        <Text color={'#d4ccb2'} fontSize={'17px'} >
+                                                        <Text color={'#d4ccb2'} fontSize={'17px'} mr={'20px'} >
                                                         <Heading>Our cheese is a true delight of taste.</Heading>
                                                         We pride ourselves on making the most delicious cheeses on the market. Our recipe has been carefully crafted to delight your taste buds with a delicately creamy taste and perfect texture. Every bite will give you real pleasure.
 
@@ -143,14 +147,6 @@ const HomePage = () =>{
                                                             <Heading>A team of professionals working for you.</Heading>
                                                             Behind each of our cheeses is the well-coordinated work of a team of experts: technologists, quality controllers, logisticians and managers. We are always open to dialogue with our clients and are ready to answer any of your questions.
                                                         </Text> 
-                                                     </Flex>
-                                                     <Flex>
-                                                        <Text w={'100%'} mt={'30px'} ml={'170px'} color={'#d4ccb2'} fontSize={'20px'}>Learn more about {' '}
-                                                        <Link color='teal.500' href='https://youtu.be/BW4H15rK6iI?si=aKcxrZN_eQj7SFVT'>
-                                                        <b>our products</b>
-                                                        </Link>
-                                                         </Text>
-                                                        
                                                      </Flex>
                                                     </Box>
                                                        

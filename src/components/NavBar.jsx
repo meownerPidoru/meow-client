@@ -70,9 +70,6 @@ const NavBar = () => {
                     About
                 </Button>
               </Link>
-                <Button  textColor={'#FFFFFF'} variant='ghost'>
-                    Products
-                </Button>
             </Flex>
             <Flex
                 width={'50px'}
@@ -80,7 +77,6 @@ const NavBar = () => {
             >
                 {store.isAuth ? (
                     <Flex gap={3}>
-                        <div>Admin</div>
                         <button>Exit </button>
                     </Flex> 
                 ) : (
