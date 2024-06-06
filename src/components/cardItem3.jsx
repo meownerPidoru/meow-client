@@ -1,7 +1,7 @@
 import '../App.css';
 import { Text, Box, Flex, Card, CardHeader, CardBody, CardFooter, Image, Stack, Heading, Button } from '@chakra-ui/react'
 import { homeRoute } from '../utils/consts';
-import DomSir1 from '../images/DomSir1.png'
+import DomSir1 from '../images/sirok2.png'
 
 const CardItem = () =>{
     return(
@@ -18,19 +18,19 @@ const CardItem = () =>{
             >
                 <Image
                         src={DomSir1}
-                        width={'300px'}
-                        alt='DomSir1'
+                        width={'250px'}
+                        alt='sirok2'
                         borderRadius={'10%'}
                 ></Image>
                 <Box
                     width={'100%'}
                     textAlign={'center'}
                 >
-                    <Heading fontSize={'30px'}>Василиса Сталин</Heading>
+                    <Heading fontSize={'30px'}>Алоиза Степановна</Heading>
                 </Box>
                 <Box>
                     <Text>
-                        <b>Writes:</b> <i> Сыр замечательный! Дочке и мужу понравились! Будем брать ещё!</i>
+                        <b>Writes:</b> <i> Обычно сыры не ем, но подруга предложила попробовать. Очень понравился, поменяла мнение.</i>
                     </Text>
                 </Box>
                 <Flex

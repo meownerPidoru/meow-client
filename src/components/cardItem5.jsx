@@ -1,7 +1,7 @@
 import '../App.css';
 import { Text, Box, Flex, Card, CardHeader, CardBody, CardFooter, Image, Stack, Heading, Button } from '@chakra-ui/react'
 import { homeRoute } from '../utils/consts';
-import DomSir1 from '../images/DomSir1.png'
+import sirok1 from '../images/sirok1.png'
 
 const CardItem = () =>{
     return(
@@ -17,20 +17,20 @@ const CardItem = () =>{
                 flexWrap={'wrap'}
             >
                 <Image
-                        src={DomSir1}
-                        width={'300px'}
-                        alt='DomSir1'
+                        src={sirok1}
+                        width={'330px'}
+                        alt='sirok1'
                         borderRadius={'10%'}
                 ></Image>
                 <Box
                     width={'100%'}
                     textAlign={'center'}
                 >
-                    <Heading fontSize={'30px'}>Василиса Сталин</Heading>
+                    <Heading fontSize={'30px'}>Леонид Ленин</Heading>
                 </Box>
                 <Box>
                     <Text>
-                        <b>Writes:</b> <i> Сыр замечательный! Дочке и мужу понравились! Будем брать ещё!</i>
+                        <b>Writes:</b> <i> Очень доволен продукцией. Всегда покупаем, всем очень нравиться. Особенно нравиться Российский.</i>
                     </Text>
                 </Box>
                 <Flex

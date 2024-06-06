@@ -1,15 +1,21 @@
 import '../App.css';
-import { Flex, Box, Text, Grid, GridItem, WrapItem, Button, ButtonGroup, AspectRatio, hr } from '@chakra-ui/react';
+import { Flex, Box, Text, Grid, GridItem, WrapItem, Button, ButtonGroup, AspectRatio, Heading, ExternalLinkIcon } from '@chakra-ui/react';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import colors from './colors';
 import ToTopButton from '../components/ToTopButton';
 import Sir from "../images/siir.png"
 import womensir from "../images/womensir.png"
+import mirsirov from "../images/mirsirov.png"
 import crasiv from "../images/crasiv.png"
 import menu from '../components/menu';
 import CardItem from '../components/cardItem';
 import CardItem2 from '../components/cardItem2';
+import CardItem3 from '../components/cardItem3';
+import CardItem4 from '../components/cardItem4';
+import CardItem5 from '../components/cardItem5';
+import CardItem6 from '../components/cardItem6';
+import CardItem7 from '../components/cardItem7';
 import { Link, useLocation } from 'react-router-dom';
 import { ShopRoute, HomeRoute, AboutRoute, AuthRoute } from '../utils/consts';
 import Loader from '../components/Loader';
@@ -93,14 +99,70 @@ const HomePage = () =>{
                                 </Flex>
                                 </Flex>
 
-                                 <Flex 
-                                    backgroundImage={crasiv}
-                                    h={'8vh'}
-                                    w={'100%'}
-                                    >
-                                </Flex>
+                                <Flex 
+                                                backgroundImage={crasiv}
+                                                h={'8vh'}
+                                                w={'100%'}
+                                                >
+                                            </Flex>  
+                                                    <Box
+                                                    h={'110vh'}
+                                                    w={'100%'}
+                                                    backgroundColor={'#6e6232'}
+                                                    backgroundImage={mirsirov} 
+                                                    backgroundSize={'cover'}>
+                                                    <Flex>
+                                                    
+                                                        <Text w={'100%'} color={'#d4ccb2'} fontSize={'80px'} padding={'10px 50px'} margin={'30px 0px 20px 0px'}>About our sirs:</Text>
+                                                     </Flex>
+                                                     <Flex w={'80%'} justify={'center'} mt={'30px'} ml={'170px'}>
+                                                        <Text color={'#d4ccb2'} fontSize={'17px'} >
+                                                        <Heading>Our cheese is a true delight of taste.</Heading>
+                                                        We pride ourselves on making the most delicious cheeses on the market. Our recipe has been carefully crafted to delight your taste buds with a delicately creamy taste and perfect texture. Every bite will give you real pleasure.
 
-                                <Box w={'100%'} backgroundColor={'#6e6232'}>
+                                                            <Heading>High quality ingredients for the perfect product.</Heading>
+                                                            We carefully select ingredients for the production of our cheesecakes. Only the freshest and natural milk, cream of the highest quality, as well as environmentally friendly additives - all this allows us to create premium products.
+
+                                                            <Heading>Traditional recipes and modern technologies.</Heading>
+                                                            Based on many years of cheese production traditions, we combine classic recipes with advanced technologies. This allows us to maintain a unique taste, as well as ensure consistently high quality and safety of our products.
+
+                                                            <Heading>Wide range for every taste.</Heading>
+                                                            In our assortment you will find cheese curds with a variety of fillings and flavors: classic, raisin, vanilla, chocolate and many others. Regardless of your preferences, we will offer the ideal option.
+                                                        </Text>
+
+                                                        <Text color={'#d4ccb2'} fontSize={'17px'}>
+                                                            <Heading>Convenient formats for any need.</Heading>
+                                                            We offer cheese curds both in standard packaging and in convenient multi-serving formats. This allows you to enjoy our products at home, in the office or on the go.
+
+                                                            <Heading>Caring for the environment.</Heading>
+                                                            We take a responsible approach to environmental issues and strive to minimize the negative impact on the environment. Our packaging is 100% recyclable and our manufacturing processes meet high environmental standards.
+
+                                                            <Heading>Availability nationwide.</Heading>
+                                                            Our products are presented in all major chain stores around the world. You can always buy your favorite cheesecakes within walking distance without wasting time searching.
+
+                                                            <Heading>A team of professionals working for you.</Heading>
+                                                            Behind each of our cheeses is the well-coordinated work of a team of experts: technologists, quality controllers, logisticians and managers. We are always open to dialogue with our clients and are ready to answer any of your questions.
+                                                        </Text> 
+                                                     </Flex>
+                                                     <Flex>
+                                                        <Text w={'100%'} mt={'30px'} ml={'170px'} color={'#d4ccb2'} fontSize={'20px'}>Learn more about {' '}
+                                                        <Link color='teal.500' href='https://youtu.be/BW4H15rK6iI?si=aKcxrZN_eQj7SFVT'>
+                                                        <b>our products</b>
+                                                        </Link>
+                                                         </Text>
+                                                        
+                                                     </Flex>
+                                                    </Box>
+                                                       
+                                              <Flex 
+                                                   backgroundImage={crasiv}
+                                                   h={'8vh'}
+                                                  w={'100%'}
+                                                  >
+
+                                                </Flex>
+
+                                <Box w={'100%'} backgroundColor={'#7a6b35'} paddingBottom={'50px'}>
                                     <Text fontSize={'80px'} padding={'10px 50px'} margin={'30px 0px 20px 0px'}>Your Comments:</Text>
                                     
                                     <Flex
@@ -112,16 +174,22 @@ const HomePage = () =>{
                                         gap={'20px'}
                                         mb={'10px'}
                                     > 
-                                        <CardItem />
-                                        <CardItem />
-                                        <CardItem />
-                                        <CardItem />
+                                        <CardItem3 />
+                                        <CardItem4 />
+                                        <CardItem5 />
+                                        <CardItem6 />
                                         <CardItem2 />
-                                        <CardItem />
+                                        <CardItem7 />
                                     </Flex>
                                 </Box>
                             
-                        
+                                            <Flex 
+                                                backgroundImage={crasiv}
+                                                h={'8vh'}
+                                                w={'100%'}
+                                                >
+                                            </Flex>
+
                         <Flex>
                             <ToTopButton />
                         </Flex>
